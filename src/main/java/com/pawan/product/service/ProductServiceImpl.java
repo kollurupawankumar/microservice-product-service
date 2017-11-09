@@ -10,6 +10,11 @@ import com.pawan.product.exception.DataAccessException;
 import com.pawan.product.model.Product;
 
 @Service
+/**
+ * This is the main bean and it get autowired with the dao beans.
+ * @author pawank
+ *
+ */
 public class ProductServiceImpl implements ProductService {
 
 	@Autowired
