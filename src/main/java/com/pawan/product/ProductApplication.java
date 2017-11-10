@@ -2,11 +2,11 @@ package com.pawan.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+//import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 /**
  * The annotation of discovery client will make sure it gets registered
  * with Eureka server and gives the heart beat at certain interval for the 

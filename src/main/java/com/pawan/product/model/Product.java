@@ -8,15 +8,20 @@ public class Product {
 
 	@Id
 	private String id;
-	private String sellerId;
+	private String sellerid;
 	private String name;
 	private double price;
-	
-	public String getSellerId() {
-		return sellerId;
+	public String getId() {
+		return id;
 	}
-	public void setSellerId(String sellerId) {
-		this.sellerId = sellerId;
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getSellerid() {
+		return sellerid;
+	}
+	public void setSellerid(String sellerid) {
+		this.sellerid = sellerid;
 	}
 	public String getName() {
 		return name;
@@ -30,5 +35,7 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	
+	
 	
 }
